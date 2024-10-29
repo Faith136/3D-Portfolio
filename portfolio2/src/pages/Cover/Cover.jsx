@@ -11,7 +11,7 @@ const Cover = ({ coverImg, title, subtitle }) => {
   };
 
   return (
-    <div className="h-full" style={coverImgStyle}>
+    <div className="h-5/6" style={coverImgStyle}>
       <div className="h-full flex flex-col justify-center items-center page-shadow">
         <h1 className="text-primary text-6xl font-extrabold font-outline-4">
           {title}
